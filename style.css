@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+body{
+	margin: 0 auto;
+	font-family: 'Goblin One', cursive;
+	background-color:  #e6e5e5;
+}
+.container{
+	width: auto;
+	height: 650px;
+	margin: 20px auto;	
+}
+.topnav {
+    font-family: 'Roboto Slab', serif;
+    overflow: hidden;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.topnav p {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #ff0080;
+    float: center;
+    text-decoration: none;
+}
+
+.topnav a {
+    color:#ff0080;
+}
+.calculator{
+	width: 320px;
+	height: 520px;
+	border-radius: 30px;
+	border: 5px solid rgba(255,255,255,0.20);
+	margin: 0 auto;
+	top: 40px;
+	position: relative;
+	background: #efeeee;
+	box-shadow:  20px 20px 60px #d1cdc7,
+             -20px -20px 50px #ffffff;
+}
+
+#result {
+	height: 120px;
+}
+
+#history {
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+
+#output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+
+#keyboard {
+	height: 400px;
+}
+
+.operator, .number , .empty {
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50% ;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 16px; 
+}
+
+.number, .empty {
+	background-color: #efeeee;
+}
+
+.number, .operator {
+	cursor: pointer;
+}
+
+.operator:active, .number:active {
+	font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+	outline:0;
+}
+
+button:nth-child(1){
+	font-size: 20px;
+	background-color: #54e346/*#20b2aa*/;
+}
+button:nth-child(2){
+	font-size: 20px;
+	background-color: #ea86b6/*#20b2aa*/;
+}
+button:nth-child(3){
+	font-size: 20px;
+	background-color: #28abb9 /*#20b2aa*/;
+}
+button:nth-child(4){
+	font-size: 20px;
+	background-color: #845ec2/*#20b2aa*/;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffc75f /*#ffa500*/;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #75cfb8 /*#f08080*/;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #eb596e /*#7d93e0*/;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #b088f9 /*#9477af*/;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .topnav p {
+    font-size:14px; 
+  }
+
+
+}
